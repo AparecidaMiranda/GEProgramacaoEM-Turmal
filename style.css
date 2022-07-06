@@ -20,8 +20,7 @@ body{
 }
 
 p{
-	text-align: center;
-	font-size:20px
+	text-align:justify;
 	
 }
 
@@ -30,7 +29,8 @@ p{
 }
 
 em strong{
-	color: #FF0000;
+	color: #FF3300;
+
 }
 
 .itens{
