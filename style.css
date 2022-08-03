@@ -1,14 +1,23 @@
 body{
-		
+
 }
+
+main{
+  background-color:#FF1233;
+}
+
+footer{
+	background-color: #FF1233;
+	text-align: center;
+	}
 
 #banner{
 	width: 100%;
 }
 
 .principal{
-	background: #CCCCCC;
-	padding: 30px;	
+	background: #FF6C1F;
+	padding: 30px;
 }
 
 .titulo-principal{
@@ -21,7 +30,7 @@ body{
 
 p{
 	text-align:justify;
-	
+
 }
 
 #missao{
