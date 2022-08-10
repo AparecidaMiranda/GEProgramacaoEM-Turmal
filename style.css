@@ -3,16 +3,17 @@ body{
 }
 
 main{
-  background-color:#FF1233;
+  background-color:#F5F5F5;
 }
 
 footer{
-	background-color: #FF1233;
+	background-color: #F51233;
 	text-align: center;
 	}
 
 #banner{
 	width: 100%;
+  height: 450px;
 }
 
 .principal{
@@ -24,8 +25,9 @@ footer{
 	padding-left: 20px;
 }
 
-.titulo-centrlizado{
-	text-align: center
+.titulo-centralizado{
+	text-align: center;
+  padding-left: 20px;
 }
 
 p{
@@ -37,8 +39,12 @@ p{
 	font-size:20px
 }
 
+#alergia{
+  font-size:25px
+}
+
 em strong{
-	color: #FF3300;
+	color: #F8F8FF;
 
 }
 
