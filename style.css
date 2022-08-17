@@ -16,17 +16,13 @@ footer{
   height: 450px;
 }
 
-.principal{
-	background: #FF6C1F;
-	padding: 30px;
-}
 
 .titulo-principal{
 	padding-left: 20px;
 }
 
-.titulo-centralizado{
-	text-align: center;
+.titulo-esquerda{
+	text-align: left;
   padding-left: 20px;
 }
 
@@ -67,4 +63,29 @@ ul{
 
 .imagembeneficios{
 	width: 50%;
+}
+
+.momentos{
+	background-color: gray;
+	padding: 5px;
+	margin: 10px;
+	border: black solid 2px;
+}
+
+#OIP{
+	display: inline-block;
+	width: 50%;
+	height: inherit;
+	vertical-align: top;
+}
+
+.lista{
+	display: inline-block;
+	font-size: 40px;
+	margin: 20px;
+
+}
+
+ul li::marker{
+	content: "🎂";
 }
