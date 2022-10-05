@@ -1,4 +1,6 @@
-:monocle_face:Repositório para Formadores em Ação 2022
+# GEProgramacaoEM-Turmal
+
+:monocle_face:Projeto *desenvolvido* no GE Programacao EM
 
 :man_teacher: Professora - Franciele Pastori
 
