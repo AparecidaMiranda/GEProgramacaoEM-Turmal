@@ -7,86 +7,173 @@ body {
 .titulo-principal{
 	display: block;
 	text-align: right;
-	font-size: 50px;
-	color: #006400;
-	background-color:#F0E68C;
- 	padding: 60px 60px 10px 10px;
+	text-shadow: 2px 2px 2px black;
+	font-size: 55px;
+	font-weight:bold;
+	font:sans-serif;
+	color: #FFF0F5;
+	background-color:#A0522D;
+ 	padding: 100px 100px ;
  	margin: auto;
- 	
+ 	border-radius: 7%;
+	border: 2px solid black;
+	color:rgb(239,231,100);
+	
+
+
+}
+
+#cabecalho{
+	background-color:#FFFFFF;
+ 	padding: 40px 40px ;
+ 	margin: auto;
+
 }
 
 #banner{
-	width: 7%;
+	width: 15%;
 	margin: 0 0;
   	display: block;
   	position: absolute;
   	top: 10%;
   	left: 10%;
-  	transform: translate(-40%, -40%);
+  	transform: translate(-10%, -1%);
+
 
 }
 
 .momentos{
- 	background-color: #FFFAFA;
- 	padding: block;
- 	margin: 50px;
- 	border: black solid 3px;
+ 	padding: 2px 2px ;
+ 	margin: 10px;
+ 	font-size: 20px;
+	font-family: times new roman;
+	text-align: justify;
+
  }
 
-#missao{
-	
+
+#pao{
+	width: 30%;
+ 	height: inherit;
+ 	border-radius: 7%;
+ 	display: block;
+ 	margin: auto;
+}
+
+
+.titulo-centralizado{
+	font-weight:bold;
+	font-size: 30px;
+	color: #DC143C;
+	margin: 5px auto;
+	padding: 5px 0;
+
+}
+
+.container img { 
+	max-width: 500px; 
+	border-radius: 7%;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0;
+	padding: 6px 0;
+	display: block;
 
 }
 
 
-#imagemprincipal{
-	width: 80%;
-	height: 400px;
-	border: 2px solid black;
-	padding: 20px;
-	margin: 20px;
-
-
-
-}
-
-
-h3 {
+.produtos li {
+	display: inline-block;
 	text-align: center;
-	color:black;
+	width: 35%;
+	vertical-align: top;
+	margin: 0 1%;
+	padding: 2px 2px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 
 }
 
-b {
-	color: black;
+
+.produtos li:hover h2 {
 	font-size: 30px;
 }
 
-#paragrafodiferente {
-	color: darkred;
-	font-size: 50px;
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 2px 2px;
 
 
 }
 
-i {
-font-size: 40px;
+.produto-descricao {
+	font-size: 18px;
+
+}
+
+
+.lista {
+ 	display:inline-block ;
+ 	font-size: 20px;
+ }
+
+ .farinha{
+ 	font-size: 30px;
+ 	color: 	#D2691E;
+ 	margin: 10px auto;
+	padding: 10px 10px;
+ }
+
+.leite{
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	color: #2F4F4F;
+ 	margin: 10px auto;
+	padding: 10px 10px;
+ }
+
+
+ .tipos-farinha{
+ 	font-size: 20px;
+ 	color: green;
+ 	font-family: times new roman;
+ 	padding: 20px 50px;
+
  }
 
  
+.tipos-leite{
+	font-size: 20px;
+ 	color: Brown;
+ 	font-family: times new roman;
+	padding: 20px 50px;
+}
 
- #imagemlateral {
- 	display:inline-block ;
- 	width: 30%;
- 	height: inherit;
- 	vertical-align: top;
+ul li::marker {
+  	content: "🥪";
  }
 
- .lista {
- 	display:inline-block ;
- 	font-size: 40px;
- }
- 
- ul li::marker {
- 	content: "🥙";
- }
+ol li::marker{
+	content: "🥛";
+}
+
+
+.nome{
+	text-align: center;
+ 	font-size: 20px;
+ 	font-family: times new roman;
+ 	color:#FF00FF;
+ 	margin: 10px auto;
+	padding: 10px 10px;
+}
+
+.copyright{
+	color:#000000;
+ 	margin: 10px auto;
+	padding: 10px 10px;
+}
+

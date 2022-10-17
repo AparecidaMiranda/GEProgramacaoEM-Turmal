@@ -1,12 +1,24 @@
-# GEProgramacaoEM-Turmal
+Títulos
+ 
+ :heart_eyes:
+ 
+# GEProgramacaoEM-TurmaL
+## dois
+### Três
+#### quatro
+Formatação
+- oi
+- eu
+- **sou**
+- _fran_
 
-:monocle_face:Projeto *desenvolvido* no GE Programacao EM
+Link:
 
-:man_teacher: Professora - Franciele Pastori
+[clique aqui](https://classroom.google.com/u/0/c/NTMyOTU3NDkwMzMw)
 
-:heart:**Aparecida de Oliveira da Silva Miranda**
+Imagem
+![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
-![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white) oliveirasilva481@gmail.com
-
-![](https://th.bing.com/th/id/OIP.EvEI0oZGwkUUF_dohEepUQAAAA?pid=ImgDet&w=130&h=247&c=7)
+link e imagem
+[![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](francielle.pastori@gmail.com)
 
