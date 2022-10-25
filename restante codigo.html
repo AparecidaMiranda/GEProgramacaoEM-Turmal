@@ -1,0 +1,47 @@
+<div class="lista">
+<ul class="tipos-farinha">
+						
+						<li>Farinhas de fécula de batata</li>
+						<li>Farinhas de grãos e cereais</li>
+						<li>Amidos</li>
+						<li>Farinha de coco</li>
+					</ul>
+			</div>
+
+			<div>
+				<h1 class="leite">Tipos de leite sem lactose</h1>
+					<ol class="tipos-leite">
+						<li >Leite de soja</li>
+						<li>Leite de amêndoas</li>
+						<li>Leite de castanha do pará</li>
+						<li>Leite de coco</li>
+					</ol>
+			</div>
+
+
+
+
+
+
+css
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	vertical-align: top;
+	margin: 10px auto;
+	padding: 5px 5px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+
+}
+
+ul li::marker {
+  	content: "🥪";
+ }
+
+ol li::marker{
+	content: "🥛";
+}

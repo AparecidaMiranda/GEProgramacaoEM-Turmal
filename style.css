@@ -1,30 +1,30 @@
 body{
-	background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
-	
+	background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 70%);
+
 
 }
 
 header{
-	padding: 30px 0;
-	position: relative;
 	
+	background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 90%);	padding: 10px 0;
+	position: relative;
+
 }
 
 .titulo-principal{
 	display: block;
 	text-align: center;
 	mix-blend-mode: multiply;
-	font-size: 85px;
-	font-family: pathway gothic one;
+	font-size: 50px;
+	font-family: sans-serif;
 	font-weight:bolder;
 	font:sans-serif;
-	color: #ffe8d6;
-	background-color: darkcyan;
+	color: #5d4157;
+	background:  #fbc8d4;
  	padding: 70px 350px;
  	margin: auto;
-	background-image: url(fundo1.jpg);
-	background-size: contain;
-	width: 1300px;
+	
+	
 	
 }
 
@@ -33,7 +33,7 @@ header{
 #banner{
 	width: 15%;
 	height: 23%;
-	margin: 43px 75px;
+	margin: 80px 110px;
   	display: block;
   	position: absolute;
   	top: 1%;
@@ -46,7 +46,7 @@ header{
 .titulo-centralizado{
 	font-weight:bold;
 	text-shadow: 2px 2px 2px black;
-	font-size: 40px;
+	font-size: 30px;
 	color: #DC143C;
 	margin: 5px auto;
 	padding: 5px 0;
@@ -57,7 +57,7 @@ header{
 .momentos{
  	padding: 2px 2px ;
  	margin: 10px;
- 	font-size: 30px;
+ 	font-size: 20px;
 	font-family: sans-serif;
 	text-align: justify;
 	align-content: space-between;
@@ -65,17 +65,6 @@ header{
 
 
  }
-
-.formatacao{
-	background: url(https://i.pinimg.com/736x/83/f3/57/83f357b9286cf1ea046be49163cc155e.jpg);
-	font-size: 30px;
-	font-family: sans-serif;
-	text-shadow: 2px 2px 2px black;
-	text-align: center;
-	color: red;
-	padding: 5px;
-
-}
 
 .tipos{
  	font-size: 30px;
@@ -109,7 +98,7 @@ header{
 
 .lista {
  	display:inline-block ;
- 	font-size: 20px;
+ 	font-size: 10px;
  }
 
  .farinha{
@@ -124,7 +113,8 @@ header{
 .leite{
  	font-size: 30px;
  	font-weight: bold;
- 	color: #2F4F4F;
+ 	font-family: sans-serif;
+ 	text-shadow: 2px 2px 2px black;
  	margin: 10px auto;
 	padding: 10px 10px;
  }
@@ -133,26 +123,11 @@ header{
  .tipos-farinha{
  	font-size: 20px;
  	color: green;
- 	font-family: times new roman;
+ 	font-family: sans-serif;
  	padding: 20px 50px;
 
  }
 
- 
-.tipos-leite{
-	font-size: 20px;
- 	color: Brown;
- 	font-family: times new roman;
-	padding: 20px 50px;
-}
-
-ul li::marker {
-  	content: "🥪";
- }
-
-ol li::marker{
-	content: "🥛";
-}
 
 footer{
 	background-color:#DC143C;
@@ -161,7 +136,7 @@ footer{
 
 .nome{
 	text-align: center;
- 	font-size: 20px;
+ 	font-size: 30px;
  	font-family: times new roman;
  	
 	font-weight: bold;
