@@ -1,37 +1,62 @@
 body{
 	background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 70%);
-
-
 }
 
 header, footer{
 	background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 90%);	padding: 10px 0;
-	position: relative;
+
 }
 
 #banner{
 		width: 15%;
-		height: 30%;
-		margin: 70px 110px;
+		height: 25%;
+		margin: 5px 100px;
 	  display: block;
 	 	position: absolute;
 	 	top: 1%;
 	 	left: 2%;
 	 	transform: translate(-30%, -1%);
-		border-radius: 30px;
+		border-radius: 45px;
 }
+
+.menu{
+		/* TODO: posição dos menus */
+	position: absolute;
+	top: 60px;
+	right: 90px;
+
+}
+
+nav li{
+		/* TODO: posicionar na linha os menus */
+	list-style: none;
+	display: inline;
+	margin-left: 15px;
+
+}
+
+nav a{
+		/* TODO: tudo relacionado a letra */
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: 	#FF007F;
+
+}
+
 
 .titulo-principal{
 	display: block;
-	text-align: center;
+	text-transform: uppercase;
+	text-align: left;
 	mix-blend-mode: multiply;
-	font-size: 50px;
+	font-size: 20px;
 	font-family: sans-serif;
 	font-weight:bolder;
 	font:sans-serif;
 	color: #5d4157;
 	background:  #fbc8d4;
- 	padding: 70px 350px;
+ 	padding: 80px 300px;
  	margin: auto;
 
 }
@@ -101,14 +126,13 @@ header, footer{
  }
 
 .leite{
- 	font-size: 30px;
+	font-size: 30px;
  	font-weight: bold;
  	font-family: sans-serif;
  	text-shadow: 2px 2px 2px black;
  	margin: 10px auto;
 	padding: 10px 10px;
  }
-
 
  .tipos-farinha{
  	font-size: 20px;
@@ -118,15 +142,11 @@ header, footer{
 
  }
 
-
-
-
 .nome{
 	text-align: center;
- 	font-size: 30px;
+ 	font-size: 15px;
  	font-family: times new roman;
 	font-weight: bold;
-
 }
 
 .copyright{
